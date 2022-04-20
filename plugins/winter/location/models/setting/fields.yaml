@@ -1,0 +1,31 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+tabs:
+    fields:
+
+        # Default Country
+        default_country:
+            span: left
+            label: winter.location::lang.locations.default_country
+            comment: winter.location::lang.locations.default_country_comment
+            type: dropdown
+            tab: winter.location::lang.location.label
+            placeholder: - no default -
+
+        # Default State
+        default_state:
+            span: right
+            label: winter.location::lang.locations.default_state
+            comment: winter.location::lang.locations.default_state_comment
+            type: dropdown
+            tab: winter.location::lang.location.label
+            dependsOn: default_country
+            placeholder: - no default -
+
+        # Google Maps API Key
+        google_maps_key:
+            label: winter.location::lang.settings.google_maps_key
+            comment: winter.location::lang.settings.google_maps_key_comment
+            tab: winter.location::lang.settings.credentials_tab

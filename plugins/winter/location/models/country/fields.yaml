@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    is_enabled:
+        label: winter.location::lang.country.enabled
+        type: checkbox
+        span: left
+
+    is_pinned:
+        label: winter.location::lang.country.pinned
+        type: checkbox
+        span: right
+
+    name:
+        label: winter.location::lang.country.name
+        span: auto
+
+    code:
+        label: winter.location::lang.country.code
+        span: auto
+        comment: winter.location::lang.country.code_comment

@@ -1,0 +1,17 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: winter.location::lang.state.name
+        searchable: true
+
+    code:
+        label: winter.location::lang.state.code
+        searchable: true
+    
+    is_enabled:
+        label: winter.location::lang.locations.enabled_label
+        type: switch
+        searchable: false
